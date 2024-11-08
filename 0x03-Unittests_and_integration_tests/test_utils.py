@@ -7,7 +7,7 @@ from parameterized import parameterized
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """TestAccessNestedMap
+    """TestAccessNestedMap class for that inherit from unittest.TestCase
     """
     @parameterized.expand([
         ("test_case_1", {"a": 1}, ("a",), 1),
